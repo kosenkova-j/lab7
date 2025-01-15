@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.photogallery"
-        minSdk = 24
+        minSdk = 26
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -45,13 +45,12 @@ dependencies {
     implementation(libs.retrofit)
     implementation(libs.androidx.lifecycle.livedata.ktx.v251)
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
-    implementation(libs.androidx.core.ktx.v100)
     implementation(libs.gson)
-    implementation(libs.android.work.runtime)
+//    implementation(libs.android.work.runtime)
     implementation(libs.converter.gson)
     implementation(libs.androidx.lifecycle.extensions)
     implementation(libs.converter.scalars)
-    implementation("androidx.work:work-runtime-ktx:2.8.0")
+    implementation(libs.androidx.work.runtime.ktx)
     implementation(libs.androidx.espresso.core)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
