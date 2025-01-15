@@ -2,4 +2,7 @@
     <string name="app_name">lab7</string>
     <string name="search">Поиск</string>
     <string name="clear_search">Очистить поиск</string>
+    <string name="notification_channel_name">FlickrFetchr</string>
+    <string name="new_pictures_title">Новые картинки PhotoGallery</string>
+    <string name="new_pictures_text">У Вас есть новые картинки в PhotoGallery.</string>
 </resources>
